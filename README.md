@@ -45,7 +45,7 @@ Top 4 Players advance to the Championship table, Top 5-8 players advance to the 
 
 
 #### Notes
-Group Stage 2 and Finals take place on the same day. During the all stages, there will be simultaneous games.
+Group Stage 2 and Finals take place on the same day. During all stages, there will be simultaneous games.
 
 The second game of the day should be started no later than 8PM.
 
