@@ -11,7 +11,6 @@ Hosted by House Beeler
  
 ## Tournament Flow:
 1) Group Stage: Players will play through 3 games with randomly selected opponents. Players are assigned points based on their performance in each game. Points are assigned as follows:
-4 Player Game
 
 ### 4 Player Game
 | Place | Points |
