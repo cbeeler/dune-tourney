@@ -53,7 +53,7 @@ The second game of the day should be started no later than 8PM.
 1) Dune Imperium will be played with the Rise of Ix and Immortality expansions.
 2) Seating order and first player will be determined randomly when the matches are generated.
 3) The leader pile will be shuffled, and 10 leaders will be put in a pile.
-4) The player who is last in turn will choose their leader from the pile first, continuing backward to the start player, who chooses their leader last. All other leaders are discarded and the game will start.
+4) The player who is last in turn will choose their leader from the pile first, continuing backward to the first player, who chooses their leader last. All other leaders are discarded and the game will start.
 5) 4 Player games start at zero points and play to 10, while 3 player games start at zero points and play to 11.
 
 ### Rules To Remember:
