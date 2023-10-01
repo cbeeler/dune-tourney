@@ -67,7 +67,7 @@ The second game of the day should be started no later than 8PM.
 - When a player finishes their turn, they must verbally tell the next player that their turn is complete before the next player can start.
   - Once you pass the turn to the next player, you cannot undo anything from your turn without all three players at the table agreeing. One veto means the action cannot be undone.
   - Once the next player has taken any action, requests for redos turns cannot be requested.
-  - Mandatory effects can be played late, and the table will agree how to fairly resolve them or if resolving it would be too unfair and must be skipped.
+  - Mandatory effects must be played late, and the table will agree how to fairly resolve them or if resolving it would be too unfair and must be skipped.
 -   Card effects/resources/leader abilities are the player’s responsibility to manage and should be played on that player’s turn. If things are forgotten, opponents can veto via the rules described above.
 -   On your turn, some actions cannot be undone once taken. This normally involves when a player gains information. Example: drawing a card or intrigue card because the player has received information could fake a mistake due to bad luck.
 
