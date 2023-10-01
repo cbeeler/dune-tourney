@@ -63,7 +63,7 @@ The second game of the day should be started no later than 8PM.
 
 ## House Rules
 - Banned Cards: Tleilaxu Master, Ghola
-- Turns are not timed, but it is recommended that each turn not take longer than an average 2 minutes each. If a player is taking too long, and all 3 opponents agree, a timer will be placed and turns for the offending player will be timed to 2 minutes throughout the rest of the game.
+- Turns are not timed, but it is recommended that each turn not take longer than an average of 2 minutes each. If a player is taking too long, and all 3 opponents agree, a timer will be placed and turns for the offending player will be timed to 2 minutes throughout the rest of the game.
 - When a player finishes their turn, they must verbally tell the next player that their turn is complete before the next player can start.
   - Once you pass the turn to the next player, you cannot undo anything from your turn without all three players at the table agreeing. One veto means the action cannot be undone.
   - Once the next player has taken any actions, requests for redos turns cannot be requested.
