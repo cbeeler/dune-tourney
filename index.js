@@ -41,14 +41,14 @@ const alreadyPlayedOpponents = (alreadyPlayed, opponents) => {
   return played;
 };
 
+const markThePlayersInTheGameOfThree = (round) => {
+  model.rounds[round][0].forEach((player) => {
+    model.players[player].inThreePlayerGame = true;
+  });
+}
 
-for(let round = 0; round < rounds; round++) {
-  const roundPlayerList = copyPlayersList();
-  model.rounds[round] = [];
-  // console.log(roundPlayerList);
-
+const createRound = (round, roundPlayerList) => {
   tableConfig.forEach(({ players }, tableIndex) => {
-    // console.log('new table', players, tableIndex)
     model.rounds[round][tableIndex] = [];
     let playerIndex = 0;
 
@@ -57,36 +57,42 @@ for(let round = 0; round < rounds; round++) {
       const player = model.players[roundPlayerList[playerIndex]];
       const playerName = roundPlayerList[playerIndex];
 
-      console.log(roundPlayerList)
-      console.log(playerName, playerIndex, roundPlayerList.length)
-      // console.log(player)
-
-      if(alreadyPlayedOpponents(player.opponents, opponents)) {
-        console.log('Not Allowing', roundPlayerList[playerIndex])
+      if(alreadyPlayedOpponents(player.opponents, opponents) || 
+        (players === 3 && player.inThreePlayerGame)) {
         playerIndex++;
         if(playerIndex === roundPlayerList.length) {
-          // playerIndex = 0;
-          // console.log(player.inThreePlayerGame)
-          console.log(JSON.stringify(model, null, 2))
-          throw 'invalid'
+          throw 'invalid';
         }
-        // console.log(playerIndex, roundPlayerList.length)
       }
       else {
-        console.log('adding')
         model.rounds[round][tableIndex].push(playerName)
         roundPlayerList.splice(playerIndex, 1);
         playerIndex = 0;
       }
-
-
-      // console.log('player selected')
     }
   });
 
+  return true;
+};
+
+
+for(let round = 0; round < rounds; round++) {
+  let roundGenerated = false;
+
+  do
+  {
+    const roundPlayerList = copyPlayersList();
+    model.rounds[round] = [];
+
+    try {
+      createRound(round, roundPlayerList);
+      roundGenerated = true
+    }
+    catch(e) {}
+  } while(!roundGenerated);
+
   recordOpponentsForThisRound(round);
+  markThePlayersInTheGameOfThree(round);
 }
 
 console.log(model.rounds)
-console.log(model)
-// console.log(JSON.stringify(model, null, 2))
