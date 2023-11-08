@@ -65,7 +65,7 @@
 | 1st  | Rez |
 | 2nd  | Sarah |
 | 3rd  | Bryce |
-| 4th  | Jed |
+| ~~4th~~  | ~~Jed~~ |
 
 | Table Bene Gesserit | Players |
 | ------------------- | ------- |
@@ -79,7 +79,7 @@
 | 1st  | Chris |
 | 2nd  | Japoy |
 | 3rd  | Jace |
-| 4th  | Cheska |
+| ~~4th~~  | ~~Cheska~~ |
 
 | Table Emperor  | Players |
 | -------------- | ------- |
